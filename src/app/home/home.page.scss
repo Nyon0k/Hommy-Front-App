@@ -1,0 +1,46 @@
+.cards{
+	background-color: #c5ffff;
+	color: black;
+	border-radius: 10px;
+	padding-bottom: .5%;
+	margin-bottom: 5%;
+}
+
+.img{
+	width: 100vw;
+	height: 30vh;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.text{
+	padding-left: 3%;
+}
+
+.title{
+
+}
+
+.comment{
+	padding-left: 5%;
+}
+
+.button1{
+	background-color: #EBEBEB;
+	padding: 1%;
+	width: 30vw;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	box-shadow: 1px, 1px;
+	border-radius: 10px;
+	text-decoration: none;
+	text-decoration-line: none;
+	color: black;
+	box-shadow: 0 4px 10px -3px #989898;
+}
+
+a:link{
+	text-decoration: none;
+}
