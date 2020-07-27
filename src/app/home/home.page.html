@@ -37,4 +37,24 @@
     		<a href="">Ver anúncio</a>
     	</p>
     </div>
+    <div class="cards" *ngFor='let dadosRepublica of dadosRepublicas'>
+        <img class="img" src="../../assets/imagem1.jpg">
+        <div class="text">
+            <h3 class="title">
+                {{dadosRepublica.nomeRepublica}}
+            </h3>
+            <div>
+                <p class="comment">
+                    {{dadosRepublica.endereco}}
+                </p>
+                <p class="comment">
+                    {{dadosRepublica.quantidadeDeQuartos}}
+                </p>
+                <p class="comment">
+                    {{dadosRepublica.preco}}
+                </p>
+            </div>
+        </div>
+        <ion-button expand="full" color="light">Ver anúncio</ion-button>
+    </div>
 </ion-content>

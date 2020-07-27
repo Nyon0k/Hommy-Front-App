@@ -22,7 +22,7 @@
 }
 
 .comment{
-	padding-left: 5%;
+	text-align: center;
 }
 
 .button1{
@@ -37,10 +37,18 @@
 	border-radius: 10px;
 	text-decoration: none;
 	text-decoration-line: none;
-	color: black;
+	color: #fff;
 	box-shadow: 0 4px 10px -3px #989898;
+}
+
+.button2{
+	color: #000;
 }
 
 a:link{
 	text-decoration: none;
+}
+
+a{
+	color: #000;
 }
